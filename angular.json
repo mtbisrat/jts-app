@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist",
+            "outputPath": "dist/ats",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -28,7 +28,7 @@
             ],
             "styles": [
               "src/styles.scss",
-              "./node_modules/font-awesome/scss/font-awesome.scss"
+              "../ats/node_modules/font-awesome/scss/font-awesome.scss"
               
             ],
             "scripts": []
